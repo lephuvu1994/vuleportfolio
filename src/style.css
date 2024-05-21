@@ -592,6 +592,9 @@ html {
     text-align: left !important;
     padding-left: 1px !important;
   }
+  .text-12 {
+    font-size: 12px;
+  }
   
   @media (max-width: 767px) {
     .about-img {

@@ -1,5 +1,5 @@
 export {  } from "./About"
 export {  } from "./AboutCard"
 export {  } from "./Github"
-export {  } from "./Techstack"
+export {  } from "./TechStack"
 export {  } from "./Toolstack"
