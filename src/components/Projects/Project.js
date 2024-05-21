@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import canonCustomLayer from "../../Assets/Projects/canonCustomLayer.png";
+import FPTWebsite from "../../Assets/Projects/FPTWebsite.png";
+import MetarushWebsite from "../../Assets/Projects/MetarushWebsite.png";
+import MoonvilleFarms from "../../Assets/Projects/MoonvilleFarms.png";
+import MyriaAirdrop from "../../Assets/Projects/Myria_Airdrop.png";
+import MyriaMarketplace from "../../Assets/Projects/myria_marketplace.png";
+import MyriaCoreSDKAndDocument from "../../Assets/Projects/myria-core-sdk-and-document.png";
+import Softbank from "../../Assets/Projects/Softbank.png";
+import Spacebar from "../../Assets/Projects/Spacebar.png";
 
 function Projects() {
   return (
@@ -23,70 +26,124 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={canonCustomLayer}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Canon USA"
+              description="Custom layer to verify for the order on MOM, using NestJS to process hundreds of thousands of order per day, RabbitMQ to resolve message from the microservice( many storage ) and S21 and MOM"
+              productLink="https://www.usa.canon.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={canonCustomLayer}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Canon USA"
+              description="The client has required to build e-commerce website systems for American market.The system with extremely high magnitude and complexity using complicated and difficult technologies such as Magento Commerce Cloud, Adobe Experience Manager(AEM), Coveo Cloud. Magento to build ecommerce websites, AEM to manage website content. And coveo cloud is provides an AI platform to analyze and observe user behavior to suggest products to users."
+              productLink="https://www.usa.canon.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Softbank}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Softbank"
+              description=""
+              productLink="hhttps://www.softbank.jp/en/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Spacebar}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Spacebar"
+              description=""
+              productLink="https://spacebar.th/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FPTWebsite}
+              isBlog={false}
+              title="FPT Website"
+              description=""
+              productLink="https://fpt.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MoonvilleFarms}
+              isBlog={false}
+              title="Moonville Farms"
+              description=""
+              productLink="https://moonvillefarms.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={MyriaMarketplace}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Myria Marketplace"
+              description=""
+              productLink="https://myria.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={MyriaAirdrop}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Myria Airdrop"
+              description=""
+              productLink="https://myria.com/airdrop"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MetarushWebsite}
+              isBlog={false}
+              title="Myria Metarush"
+              description=""
+              productLink="https://metarush.myria.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyriaCoreSDKAndDocument}
+              isBlog={false}
+              title="Myria Core SDK and Document"
+              description="Document for the myria-core-sdk. Using docusaurous to build UI for the documentation"
+              productLink="https://docs.myria.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyriaMarketplace}
+              isBlog={false}
+              title="Myria UI Sample"
+              isShowRepo={true}
+              ghLink={"https://github.com/MyriaPlatform/myria-react-samples"}
+              description="React-based application for client interactions with Myria Core SDK."
+              productLink="https://myria-react-samples.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MyriaMarketplace}
+              isBlog={false}
+              title="Myria Sample interact with myria-core-sdk"
+              isShowRepo={true}
+              ghLink={"hhttps://github.com/MyriaPlatform/myria-ts-samples"}
+              description="Typescript application that shows how to interact with the myria-core-sdk library. The code samples provided in this project will help create new Myria projects, launch collections, and mint assets on the Myria Chain."
+              productLink=""
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
