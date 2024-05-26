@@ -6,7 +6,7 @@ import axios from "axios";
 const fetchCalendarData = async (username) => {
   try {
     const currentDateNow = new Date(Date.now());
-    const currentDate = currentDateNow.getDay();
+    const currentDate = currentDateNow.getDate();
     const currentMonth = currentDateNow.getMonth();
     const currentYear = currentDateNow.getFullYear();
 
