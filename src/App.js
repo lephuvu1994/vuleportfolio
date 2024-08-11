@@ -27,7 +27,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
+  console.log("abc")
   return (
     <Router>
       <Preloader load={load} />
