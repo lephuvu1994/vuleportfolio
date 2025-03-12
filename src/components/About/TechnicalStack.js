@@ -18,7 +18,6 @@ import {
   SiNextdotjs,
   SiNestjs,
   SiRedis,
-  SiFirebase,
   SiSolidity,
   SiPostgresql,
   SiVuedotjs,
@@ -26,6 +25,7 @@ import {
   SiRabbitmq,
   SiStrapi,
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import { WalletConnect, MetaMask, Coinbase, Solana } from "react-web3-icons"
 
 function TechnicalStack() {
@@ -55,6 +55,15 @@ function TechnicalStack() {
       >
         <DiReact />
         <span className="text-12">ReactJS</span>
+
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons d-flex flex-column justify-content-center align-items-center"
+      >
+        <TbBrandReactNative/>
+        <span className="text-12">React Native</span>
 
       </Col>
       <Col
