@@ -81,12 +81,8 @@ const GitLabCalendar = ({
     return <Skeleton {...props} loading />;
   }
 
-  const theme = props.theme ?? DEFAULT_THEME;
-
   const defaultLabels = {
-    totalCount: `{{count}} contributions in ${
-      "last" === "last" ? "the last year" : "{{year}}"
-    }`,
+    totalCount: `{{count}} contributions in the last year`,
   };
 
   const totalCount = data.reduce((currentValue, currentData) => {
